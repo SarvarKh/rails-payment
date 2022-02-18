@@ -35,6 +35,12 @@ gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 # Figaro to securly config App
 gem 'figaro'
 
+# for admin system
+gem 'activeadmin'
+
+# for user authentication
+gem 'devise'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
